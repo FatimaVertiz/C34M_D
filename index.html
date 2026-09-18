@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<title>Día 34 · Maricela</title>
+<style>
+:root{--gold:#d8bf8a;--gold2:#b18a42;--cream:#f4e8c9;--red:#850d18;--ink:#342716}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%}body{min-height:100svh;background:radial-gradient(circle at 50% 8%,rgba(125,17,24,.27),transparent 30%),radial-gradient(circle at 50% 72%,rgba(120,91,43,.12),transparent 45%),#050505;color:var(--cream);font-family:Georgia,"Times New Roman",serif;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.22;background-image:radial-gradient(circle at 10% 16%,#eadbb7 0 1px,transparent 1.5px),radial-gradient(circle at 78% 12%,#eadbb7 0 1px,transparent 1.5px),radial-gradient(circle at 25% 34%,#eadbb7 0 1px,transparent 1.5px),radial-gradient(circle at 91% 43%,#eadbb7 0 1px,transparent 1.5px),radial-gradient(circle at 13% 67%,#eadbb7 0 1px,transparent 1.5px),radial-gradient(circle at 71% 80%,#eadbb7 0 1px,transparent 1.5px)}
+.page{width:min(100%,520px);margin:0 auto;padding:max(18px,env(safe-area-inset-top)) 18px max(36px,env(safe-area-inset-bottom));display:flex;flex-direction:column;align-items:center;position:relative}.eyebrow{margin:2px 0 6px;color:#bca476;font-size:11px;letter-spacing:.25em;text-transform:uppercase;text-align:center}h1{margin:0;text-align:center;font-size:clamp(25px,7vw,34px);font-weight:500;letter-spacing:.03em}.rule{width:135px;height:1px;margin:13px auto 5px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.owl{width:100%;max-height:235px;object-fit:contain;display:block;margin:4px 0 0}.sound{border:1px solid rgba(216,191,138,.42);background:rgba(0,0,0,.36);color:var(--cream);border-radius:999px;padding:9px 15px;font:13px Georgia,serif;cursor:pointer;margin:2px 0 17px}.sound:active{transform:scale(.97)}
+.parchment{width:100%;background:linear-gradient(135deg,#ead6a5,#f5e6bf 45%,#dcc18c);color:var(--ink);border:1px solid #a9874b;border-radius:5px;padding:25px 21px 22px;box-shadow:0 16px 38px rgba(0,0,0,.55),inset 0 0 35px rgba(112,70,20,.12);position:relative}.parchment:before,.parchment:after{content:"✦";position:absolute;color:#8a692e;font-size:17px}.parchment:before{top:10px;left:12px}.parchment:after{bottom:10px;right:12px}.letter-title{text-align:center;font-size:21px;margin:0 0 17px;color:#6d1018;letter-spacing:.04em}.parchment p{font-size:15.5px;line-height:1.62;margin:0 0 13px}.parchment strong{color:#681018}.diagon{text-align:center;font-size:23px;letter-spacing:.08em;color:#71131b;margin:16px 0}.sign{text-align:center;font-style:italic;margin-top:18px!important}
+.scratch-section{width:100%;margin-top:25px;text-align:center}.scratch-heading{font-size:19px;margin:0 0 5px}.scratch-sub{font-size:12px;color:#bca476;margin:0 0 14px;letter-spacing:.05em}.scratch-card{width:100%;aspect-ratio:1.8/1;position:relative;border-radius:13px;overflow:hidden;box-shadow:0 14px 36px rgba(0,0,0,.6);border:1px solid rgba(216,191,138,.6);touch-action:none;user-select:none}.prize{position:absolute;inset:0;background:radial-gradient(circle at 50% 25%,#fff4ca,#e7c875 45%,#b98b36);color:#3e2b0d;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:18px}.prize .small{font-size:12px;letter-spacing:.15em;text-transform:uppercase}.prize .amount{font-size:clamp(32px,10vw,48px);font-weight:bold;margin:7px 0 1px}.prize .amazon{font-size:20px;font-weight:bold}.prize .seal{font-size:12px;margin-top:10px;font-style:italic}canvas{position:absolute;inset:0;width:100%;height:100%;cursor:crosshair}.result{display:none;margin-top:18px;padding:18px 15px;border:1px solid rgba(216,191,138,.38);border-radius:9px;background:rgba(79,10,16,.25)}.result.show{display:block;animation:reveal .65s ease}.result h2{font-size:21px;margin:0 0 8px;color:#ecd79d}.result p{font-size:14px;line-height:1.55;margin:5px 0}.locked-note{font-size:11px!important;color:#bca476;font-style:italic;margin-top:11px!important}@keyframes reveal{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}.spark{position:fixed;pointer-events:none;z-index:10;font-size:18px;animation:fly 1.1s ease-out forwards}@keyframes fly{to{transform:translate(var(--x),var(--y)) rotate(180deg);opacity:0}}
+</style>
+</head>
+<body>
+<audio id="music" loop preload="auto"><source src="./hedwig-theme.mp3" type="audio/mpeg"></audio>
+<main class="page">
+<div class="eyebrow">Día 34 · Una nueva entrega de Hedwig</div><h1>Tu viaje continúa...</h1><div class="rule"></div>
+<img class="owl" src="./hedwig.png" alt="Hedwig con una carta">
+<button class="sound" id="sound">🔊 Activa el volumen</button>
+<section class="parchment">
+<h2 class="letter-title">Maricela,</h2>
+<p>Hedwig ha regresado con noticias importantes.</p>
+<p>Sabemos que tu viaje a Hogwarts se aproxima, y antes de que llegue el gran día tendrás que hacer una parada muy importante...</p>
+<div class="diagon">El Callejón Diagon.</div>
+<p>Allí encontrarás todo lo necesario para prepararte para tu viaje: una nueva túnica, libros, ingredientes, objetos mágicos y, por supuesto, alguna que otra sorpresa.</p>
+<p>Para que puedas realizar tus compras a tiempo, <strong>Gringotts ha puesto a tu disposición una pequeña provisión de galeones.</strong></p>
+<p>Pero antes tendrás que descubrir cuánto te ha tocado...</p>
+<p><strong>Rasca para revelar tu recompensa.</strong></p>
+<p class="sign">La magia decidirá lo que se esconde debajo.</p>
+</section>
+<section class="scratch-section">
+<h2 class="scratch-heading">Tu provisión de Gringotts</h2><p class="scratch-sub">DESLIZA TU DEDO PARA RASCAR</p>
+<div class="scratch-card" id="card"><div class="prize"><div class="small">Tu provisión ha sido revelada</div><div class="amount">$500 MXN</div><div class="amazon">Amazon</div><div class="seal">Autorizado por Gringotts</div></div><canvas id="scratch"></canvas></div>
+<div class="result" id="result"><h2>🪙 ¡Tu provisión ha sido revelada!</h2><p><strong>$500 MXN en Amazon</strong></p><p>Gringotts ha autorizado la entrega de tus galeones para que puedas realizar tus primeras compras antes de partir.</p><p>¡Enhorabuena, Maricela!</p><p><em>Tu viaje a Hogwarts continúa...</em></p><p class="locked-note">La recompensa ha quedado sellada en este dispositivo.</p></div>
+</section>
+</main>
+<script>
+const music=document.getElementById('music'),sound=document.getElementById('sound');music.volume=.62;let playing=false;
+async function playMusic(){try{await music.play();playing=true;sound.textContent='🔊 Música activada'}catch(e){sound.textContent='🔊 Activa el volumen'}}
+window.addEventListener('load',playMusic);sound.addEventListener('click',async()=>{if(playing&&!music.paused){music.pause();playing=false;sound.textContent='🔇 Música desactivada'}else await playMusic()});document.addEventListener('touchstart',()=>{if(!playing)playMusic()},{once:true});
+const canvas=document.getElementById('scratch'),card=document.getElementById('card'),result=document.getElementById('result'),ctx=canvas.getContext('2d');let scratching=false,done=false;
+function sizeCanvas(){const r=card.getBoundingClientRect();canvas.width=Math.round(r.width*devicePixelRatio);canvas.height=Math.round(r.height*devicePixelRatio);ctx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0);if(!done)paintCover();else{canvas.style.display='none';result.classList.add('show')}}
+function paintCover(){const r=card.getBoundingClientRect(),g=ctx.createLinearGradient(0,0,r.width,r.height);g.addColorStop(0,'#8c6b2f');g.addColorStop(.45,'#d4b66c');g.addColorStop(1,'#76551f');ctx.globalCompositeOperation='source-over';ctx.fillStyle=g;ctx.fillRect(0,0,r.width,r.height);ctx.fillStyle='rgba(255,245,205,.88)';ctx.textAlign='center';ctx.font='bold 23px Georgia';ctx.fillText('R A S C A   A Q U Í',r.width/2,r.height/2-3);ctx.font='13px Georgia';ctx.fillText('para revelar tus galeones',r.width/2,r.height/2+24)}
+function pos(e){const r=canvas.getBoundingClientRect(),p=e.touches?e.touches[0]:e;return{x:p.clientX-r.left,y:p.clientY-r.top}}
+function scratch(e){if(done)return;e.preventDefault();const p=pos(e);ctx.globalCompositeOperation='destination-out';ctx.beginPath();ctx.arc(p.x,p.y,25,0,Math.PI*2);ctx.fill();check()}
+function check(){const data=ctx.getImageData(0,0,canvas.width,canvas.height).data;let clear=0,total=data.length/4;for(let i=3;i<data.length;i+=16)if(data[i]===0)clear++;if(clear/(total/4)>.34)reveal()}
+function reveal(){if(done)return;done=true;canvas.style.transition='opacity .55s';canvas.style.opacity='0';setTimeout(()=>canvas.style.display='none',560);result.classList.add('show');for(let i=0;i<22;i++){const s=document.createElement('span');s.className='spark';s.textContent=i%3?'✦':'🪙';s.style.left=(45+Math.random()*10)+'vw';s.style.top=(65+Math.random()*8)+'vh';s.style.setProperty('--x',(Math.random()*260-130)+'px');s.style.setProperty('--y',(Math.random()*-240-30)+'px');document.body.appendChild(s);setTimeout(()=>s.remove(),1200)}}
+['pointerdown','touchstart'].forEach(ev=>canvas.addEventListener(ev,e=>{scratching=true;scratch(e)},{passive:false}));['pointermove','touchmove'].forEach(ev=>canvas.addEventListener(ev,e=>{if(scratching)scratch(e)},{passive:false}));['pointerup','pointercancel','touchend'].forEach(ev=>window.addEventListener(ev,()=>scratching=false));
+sizeCanvas();window.addEventListener('resize',()=>{if(!done)sizeCanvas()});
+</script>
+</body></html>
